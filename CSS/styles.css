@@ -22,9 +22,11 @@
 }
 .font-50{
     font-size: 50px !important;
+    word-spacing: -20px;
 }
 .font-60{
     font-size: 60px !important;
+    word-spacing: -20px;
 }
 .font-dunkin{
     font-family: 'Dunkin Sans', sans-serif !important;
@@ -76,11 +78,17 @@ li{
     margin: 0;
     transition: all 250ms ease-in-out;
 }
+header{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
 header ul{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 70px;
+    background-color: white;
 }
 header ul li{
     display: inline-block;
@@ -265,6 +273,7 @@ nav{
     width: 75%;
     padding-bottom: 1rem;
     letter-spacing: -1px;
+    word-spacing: -8px;
 }
 .section-2 .rewards-2 ul .card p{
     font-size: medium;
