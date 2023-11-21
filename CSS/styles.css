@@ -419,3 +419,37 @@ nav{
 .section-4 .right-side .button a{
     padding: 13px 13px;
 }
+
+.section-5{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #dadada;
+    padding: 0;
+}
+.section-5 .item{
+    text-align: center;
+    height: 357px;
+}
+.section-5 .item:first-child{
+    border-right: 1px solid #dadada;
+    width: 720px;
+}
+.section-5 .item:last-child{
+    border-left: 1px solid #dadada;
+    width: 360px;
+}
+.section-5 .item h3{
+    margin-top: 3rem;
+    font-size: 18px;
+}
+.section-5 .item h1{
+    font-size: 24px;
+}
+.section-5 .item img{
+    transition: all 250ms ease-in-out;
+    mix-blend-mode: multiply;
+}
+.section-5 .item:hover img{
+    transform: scale(1.1);
+    
+}
