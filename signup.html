@@ -5,89 +5,154 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dunkin' Rewards Registration | Dunkin'®</title>
     <!-- CSS Stylesheets -->
-    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="./CSS/signup.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
     <link rel="stylesheet" href="./CSS/mobile.css">
     <!-- website icon -->
     <link rel="icon" href="./IMGs/icon.svg">
 </head>
 <body>
-    <div class="container2">
-        <nav class="small-nav">
-            <a href="#">
+    <div class="container signup">
+        <header class="text-center">
+            <a href="index.html">
                 <img src="./IMGs/dunkin.svg" alt="">
             </a>
-        </nav>
-        <div class="main-content">
-            <img src="./IMGs/Manage_Profile_Header_Desktop.png" alt="">
-            <div class="content">
-                <h1 class="font-dunkin">
-                    DUNKIN<span class="font-dunkin second">' REWARDS<span class="font-dunkin mark">TM</span><br>
-                    <span class="font-dunkin join">JOIN TO EARN FREE DUNKIN'</span></span>
-                </h1>
+        </header>
+        <div class="main-signinup">
+            <div class="sec1">
+                <img src="./IMGs/Desktop_Headers_Registration_new.png" alt="">
+                <div class="text-center text">
+                    <h1 class="font-dunkin text-primary">
+                        <span class="font-dunkin text-secondary">DUNKIN</span>’ REWARDS
+                    </h1>
+                    <h1 class="font-dunkin text-dark font-50">JOIN TO EARN FREE DUNKIN'</h1>
+                </div>
+            </div>
+            <div class="sec2">
+                <div class="part1">
+                    <a href="" class="text-center font-proxima font-bold text-dark">
+                        <img src="./IMGs/icons/Apple_Logo.svg" alt="">
+                        SIGN UP WITH APPLE
+                    </a>
+                </div>
+                <h2 class="or">
+                    <span class="ontop font-bold">OR</span>
+                </h2>
+                <form action="">
+                    <div class="field font-proxima">
+                        <input type="text" required autocomplete="on" id="firstName" value="">
+                        <label for="firstName" title="axaxaxax *" data-title="axaxaxax *"></label>
+                    </div>
+                    <div class="field font-proxima">
+                        <input type="text" required autocomplete="on" id="lastName" value="">
+                        <label for="lastName" title="Last Name *" data-title="Last Name *"></label>
+                    </div>
+                    <div class="field font-proxima">
+                        <input type="email" required autocomplete="on" id="email" value="">
+                        <label for="email" title="Email *" data-title="Email *"></label>
+                    </div>
+                    <div class="field font-proxima">
+                        <input type="password" required autocomplete="off" id="password" value="">
+                        <label for="password" title="Create Password *" data-title="Create Password *"></label>
+                    </div>
+                    <div class="field font-proxima">
+                        <input type="number" required autocomplete="off" id="phone" value="" placeholder="">
+                        <label for="phone" title="Phone Number *" data-title="Phone Number *"></label>
+                    </div>
+                    <div class="field font-proxima">
+                        <input type="number" required autocomplete="off" id="zipcode" value="">
+                        <label for="zipcode" title="Zip Code *" data-title="Zip Code *"></label>
+                    </div>
+                    <div class="date">
+                        <button class="dropbtn dropbtn2" onclick="myFunction('months')">Select Month
+                            <i class="fa fa-caret-down"></i>
+                            <div class="dropdown-content" id="months">
+                                <a>January</a><hr>
+                                <a>February</a><hr>
+                                <a>March</a><hr>
+                                <a>April</a><hr>
+                                <a>May</a><hr>
+                                <a>June</a><hr>
+                                <a>July</a><hr>
+                                <a>August</a><hr>
+                                <a>September</a><hr>
+                                <a>October</a><hr>
+                                <a>November</a><hr>
+                                <a>December</a>
+                            </div>
+                        </button>
+                        <button class="dropbtn dropbtn2" onclick="myFunction('days')">Select Month
+                            <i class="fa fa-caret-down"></i>
+                            <div class="dropdown-content" id="days">
+                                <a>1</a><hr>
+                                <a>2</a><hr>
+                                <a>3</a><hr>
+                                <a>4</a><hr>
+                                <a>5</a><hr>
+                                <a>6</a><hr>
+                                <a>7</a><hr>
+                                <a>8</a><hr>
+                                <a>9</a><hr>
+                                <a>10</a><hr>
+                                <a>11</a><hr>
+                                <a>12</a><hr>
+                                <a>13</a><hr>
+                                <a>14</a><hr>
+                                <a>15</a><hr>
+                                <a>16</a><hr>
+                                <a>17</a><hr>
+                                <a>18</a><hr>
+                                <a>19</a><hr>
+                                <a>20</a><hr>
+                                <a>21</a><hr>
+                                <a>22</a><hr>
+                                <a>23</a><hr>
+                                <a>24</a><hr>
+                                <a>25</a><hr>
+                                <a>26</a><hr>
+                                <a>27</a><hr>
+                                <a>28</a><hr>
+                                <a>29</a><hr>
+                                <a>30</a><hr>
+                                <a>31</a>
+                            </div>
+                        </button>
+                    </div>
+                </form>
+                <h2 class="promo-code">
+                    <a href="" class="font-proxima text-dark">Add Promo Code</a>
+                </h2>
+                <p class="font-proxima text-dark join-below">
+                    By clicking ‘Join’ below, you agree to Dunkin’s
+                    <a href="" class="font-bold">Terms and Conditions</a>,
+                    <a href="" class="font-bold">Privacy Policy</a>,
+                    <a href="" class="font-bold">Financial Incentive (CA-only)</a>, and
+                    <a href="" class="font-bold">Loyalty Disclosure (CO-only) </a>
+                </p>
+                <div class="part4">
+                    <a href="" class="text-center font-dunkin font-bold text-white">
+                        JOIN
+                    </a>
+                </div>
+                <p class="alrd-have-acc text-center font-proxima">
+                    Already have an account ?
+                    <a href="signin.html" class="font-proxima text-dark font-bold">Sign In</a>
+                </p>
             </div>
         </div>
-        <div class="block-container">
-            <button>
-                <img src="./IMGs/icons8-apple-logo-30.png" alt="">
-                <span>SIGN UP WITH APPLE</span>
-            </button>
-        </div>
-        <div class="divider">
-            <div class="or">
-                <span class="font-dunkin divider-text">OR</span>
-            </div>
-        </div>
-        <div class="grid-items">
-            <input type="text" placeholder="First Name *">
-        </div>
-        <div class="grid-items">
-            <input type="" placeholder="Last Name*">
-        </div>
-        <div class="grid-items">
-            <input type="email" placeholder="Email *">
-        </div>
-        <div class="grid-items">
-            <input type="password" placeholder="Create Password *">
-        </div>
-        <ul class="grid-items">
-            <p><span class="valider"></span>8+ characters</p>
-            <p><span class="valider"></span>Include upper and lowercase letters</p>
-            <p><span class="valider"></span>Use at least one special character</p>
-            <p><span class="valider"></span>Include at least one number</p>
-        </ul>
-        <div class="grid-items">
-            <input type="text" placeholder="Phone Number *">
-            <p>Enter your phone number to help us keep your account secure.</p>
-        </div>
-        <div class="grid-items">
-            <input type="text" placeholder="Zip Code">
-            <p>To receive local offers, promotions and programs for your area..</p>
-        </div>
-        <form>
-            <select class="" name="month">
-                <option value="au">Month</option>
-            </select>
-            <select class="day" name="Day">
-                <option value="au">Day</option>
-            </select>
-        </form>
-        <div class="promo">
-            <a href="#">Add Promo Code</a>
-        </div>
-        <div class="last">
-            <p>By clicking ‘Join’ below, you agree to Dunkin’s<a href="">Terms and <br>Conditions,</a><a href="">Privacy Policy,</a><a href=""> Financial Incentive (CA-only)</a>, and<br><a href="">Loyalty Disclosure (CO-only) </a></p>
-        </div>
-        <div class="last-input">
-            <input type="text" value="JOIN" class="font-dunkin">
-        </div>
-        <div class="authorbale">
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-        </div>
-        <footer>
-            <p>© 2023 DD IP Holder LLC</p>
+        <footer class="footer-signup">
+            <ul>
+                <li>
+                    <a href="" class="font-bold">Terms And Conditions</a>
+                </li>
+                <li>
+                    <a href="" class="font-bold">Privacy Policy</a>
+                </li>
+            </ul>
+            <p class="font-proxima">© 2023 DD IP Holder LLC</p>
         </footer>
     </div>
 
+    <script src="./JS/script.js"></script>
 </body>
 </html>
