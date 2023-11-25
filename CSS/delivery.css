@@ -1,0 +1,81 @@
+.main{
+    border-bottom: 1px solid #b3b3b3;
+}
+.section1{
+    padding: 4rem 0;
+    border-bottom: 2px solid #b3b3b3;
+}
+.section1 .part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 194px;
+    align-content:center;
+}
+.section1 .part1 .first-img{
+    padding: 2.3rem 3rem 0 0;
+}
+.section1 .part1 .right-side h2{
+    font-size: 28px;
+    word-spacing: -8px;
+}
+.section1 .part2{
+    margin-top: 2rem;
+}
+.section1 .part2 h1{
+    font-size: 24px;
+}
+.section1 .part2 form{
+    margin: 0 auto;
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section1 .part2 form .field{
+    width: 300px;
+    margin: 0 !important;
+}
+.section1 .part2 form button{
+    width: 110px;
+    height: 34px;
+    padding: 5px 24px;
+    border-radius: 50px;
+    background-color: var(--primary);
+    border: none;
+}
+
+.section2{
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+.section2>p{
+    font-size: 18px;
+}
+.section2>h1{
+    margin-top: 2.5rem;
+    font-size: 25px;
+    margin-bottom: 2rem;
+    word-spacing: -8px;
+}
+.paragraph {
+    padding: 1rem 0;
+}
+.paragraph h2{
+    font-size: 18px;
+    word-spacing: -7px;
+}
+.paragraph p{
+    line-height: 1.3;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.paragraph>p>a{
+    text-decoration: underline;
+    font-weight: bold;
+    transition: all 250ms ease-in-out;
+}
+.paragraph>p>a:hover{
+    color: var(--primary);
+}

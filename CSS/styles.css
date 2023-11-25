@@ -84,8 +84,9 @@ li{
     text-decoration: none;
 }
 .links{
+    display: inline-block;
     font-size: 1.28rem;
-    line-height: 1;
+    line-height: 1.2;
     text-align: center;
     margin: 0;
     transition: all 250ms ease-in-out;
@@ -108,6 +109,7 @@ header ul li{
     /* padding: 24px 30px; */
     text-decoration: none;
     width: calc(100% - 350px / 6);
+    text-align: center;
 }
 header ul li a img{
     padding: 0 20%;
