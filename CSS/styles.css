@@ -1,5 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/dunkin');
-@import url('https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 /* font-family: 'Dunkin', sans-serif; || font-family: 'Dunkin Sans', sans-serif; */
 /* font-family: 'Proxima Nova', 'Montserrat', sans-serif; */
 :root{
@@ -416,6 +417,9 @@ nav{
 .section-3 .left-side .imgs{
     margin-top: 1.5rem;
     text-align: center;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 .section-4{
