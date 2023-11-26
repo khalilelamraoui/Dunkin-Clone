@@ -1,0 +1,63 @@
+.section-2 .description{
+    max-width: 942px;
+    margin: 0 auto;
+    padding-top: 4rem;
+    text-align: center;
+    font-size: 18px;
+}
+.space-dunkin{
+    word-spacing: -2px;
+}
+.section-2 .description p span:last-child{
+    word-spacing: -8px;
+}
+.rewards-2{
+    margin-top: 2rem !important;
+}
+.items{
+    max-width: 940px;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 30px;
+}
+.item{
+    padding: 44px 66px;
+    border-radius: 8px;
+    border: 1px solid #dadada !important;
+    align-items: center;
+}
+.item1 .left-side h1{
+    padding: 0 39% 0 7px;
+    font-size: 36px;
+    line-height: 40px;
+}
+.item1 .left-side p{
+    padding: 0 103px 0 0;
+    margin-top: 1.5rem;
+    font-size: 16px;
+    width: 57%;
+}
+.item2 .left-side{
+    width: 60%;
+}
+.item2 .right-side{
+    padding: 0 0 0 10%;
+}
+.item2 .right-side h1{
+    font-size: 36px;
+    line-height: 40px;
+}
+.item2 .right-side p{
+    margin-top: 1.5rem;
+    font-size: 16px;
+    padding: 0 21% 0 0;
+}
+.item3{
+
+}
+.item3 h2{
+    font-size: 36px;
+}
+.item3 p{
+    padding: 0 22%;
+}

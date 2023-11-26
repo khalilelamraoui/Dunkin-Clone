@@ -27,6 +27,14 @@
 .lh-4-rem{
     line-height: 4rem;
 }
+.font-45{
+    font-size: 45px !important;
+    word-spacing: -20px;
+}
+.font-55{
+    font-size: 55px !important;
+    word-spacing: -20px;
+}
 .font-50{
     font-size: 50px !important;
     word-spacing: -20px;
@@ -38,6 +46,7 @@
 .font-dunkin{
     font-family: 'Dunkin Sans', sans-serif !important;
     font-weight: 700;
+    word-spacing: -8px;
 }
 .font-proxima{
     font-family: Proxima Nova, Montserrat, sans-serif;
@@ -51,6 +60,9 @@
 .hr-80{
     width: 80%;
     margin: 0 auto !important;
+}
+.d-flex{
+    display: flex;
 }
 *{
     font-family: 'Proxima Nova', 'Montserrat', sans-serif;
